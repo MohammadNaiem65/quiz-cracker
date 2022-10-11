@@ -7,7 +7,8 @@ const Root = () => {
     return (
         <div>
             <Header></Header>
-            <div>
+            <hr className='mt-6' />
+            <div className='flex justify-between'>
                 <SideBar></SideBar>
                 <Outlet></Outlet>
             </div>

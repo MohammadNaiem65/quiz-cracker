@@ -8,7 +8,8 @@ import Root from './components/utilities/Root';
 const router = createBrowserRouter([
   {
     path: '/', element: <Root></Root>, errorElement: <ErrorPage></ErrorPage>, children: [
-      { path: '/', element: <Home></Home>, index: true }
+      { path: '/', element: <Home></Home>, index: true },
+      { path: '/home', element: <Home></Home> }
     ]
   }
 ])
