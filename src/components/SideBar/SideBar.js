@@ -4,7 +4,7 @@ import SideBarOptions from './SideBarOptions';
 
 const SideBar = () => {
     return (
-        <div className=' bg-gray-100 w-80 h-[42rem] pl-10 pt-8 sticky top-0'>
+        <div className=' bg-gray-100 md:w-80 h-[42rem] pl-10 pt-8 absolute md:sticky top-0 left-[-50rem]'>
             <div>
                 <SideBarOptions icon={faHouse} text='Home' link='/home'></SideBarOptions>
                 <SideBarOptions icon={faClipboardList} text='Take Quiz' link='/quizzes'></SideBarOptions>

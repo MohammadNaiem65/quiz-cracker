@@ -8,7 +8,7 @@ const Root = () => {
         <div>
             <Header></Header>
             <hr className='mt-6' />
-            <div className='flex justify-between'>
+            <div className='md:flex justify-between'>
                 <SideBar></SideBar>
                 <Outlet></Outlet>
             </div>
