@@ -11,7 +11,7 @@ const SideBar = () => {
                 <SideBarOptions icon={faChartColumn} text='Statistics' link='/statistics'></SideBarOptions>
                 <SideBarOptions icon={faQuestion} text='QnA' link='/blogs'></SideBarOptions>
             </div>
-            <div className='flex justify-center items-center position absolute bottom-5'>
+            <div className='flex justify-center items-center position absolute bottom-6 left-4'>
                 <img className='w-12 mr-3' src={require('../images/avatar.png')} alt="" />
                 <div>
                     <h3 className='font-semibold text-lg'>Jhankar Mahbub Jr.</h3>
