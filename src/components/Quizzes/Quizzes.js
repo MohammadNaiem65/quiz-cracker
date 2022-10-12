@@ -8,7 +8,7 @@ const Quizzes = () => {
     return (
         <div className='w-full'>
             <div className='w-full flex flex-col items-center justify-center'>
-                <img className='w-36' src={logo} alt="" />
+                <img className='w-36 bg-blue-100 p-3 rounded-lg mt-5' src={logo} alt="" />
                 <h2 className='text-2xl font-semibold'>Quiz on <span className='font-bold text-[#A66CFF]'>{name}</span></h2>
                 <h1 className='text-xl font-semibold'>Total <span className='font-bold text-[#A66CFF]'>{total}</span> questions to answer.</h1>
                 <hr className='border-2 border-[#A66CFF] bg-[#A66CFF] h-1 w-3/5 mt-3 rounded-lg' />
